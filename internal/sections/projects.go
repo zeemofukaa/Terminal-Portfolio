@@ -41,7 +41,7 @@ animations, adaptive background music, sound effects for every
 interaction, and a settings menu for audio control.
 
 Real-time data via OpenWeatherMap API. Packaged as a standalone
-desktop app, downloadable for any OS from GitHub.`,
+desktop app, downloadable for Windows from GitHub.`,
 		Link:      "github.com/zeemofukaa/omori-weather",
 		LinkLabel: "→ download on github",
 	},
@@ -75,7 +75,7 @@ database, and auth — not just a static mockup.`,
 	{
 		Name:      "Terminal Portfolio",
 		Tags:      []string{"go", "bubbletea", "lipgloss"},
-		ShortDesc: "A retro terminal-inspired portfolio built in Go.",
+		ShortDesc: "A retro terminal-based portfolio built in Go.",
 		Desc: `Interactive TUI portfolio inspired by command-line
 interfaces. Keyboard navigation, expandable project cards,
 custom layouts, and a handcrafted retro aesthetic built

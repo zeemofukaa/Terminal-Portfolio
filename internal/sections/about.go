@@ -90,19 +90,19 @@ func NewAboutModel(w, h int) AboutModel {
 }
 
 func (m AboutModel) FullBio() string {
-	return `is a Metallurgical and Materials Engineering
-student at IIT Kharagpur.
+	return `I am a Metallurgical and Materials 
+Engineering student at IIT Kharagpur.
 
-She builds websites, desktop applications,
+I build websites, desktop applications,
 3D animations, and interactive experiences.
 
-Her interests span software development,
+My interests span software development,
 computer graphics, design, and game
-development. Instead of focusing on a
-single discipline, she enjoys exploring
+development. Rather than focusing on a
+single discipline, I enjoy exploring
 the spaces where different fields overlap.
 
-Driven by curiosity, she likes learning
+Driven by curiosity, I like learning
 new tools, solving problems, and turning
 ideas into something tangible.`
 }
