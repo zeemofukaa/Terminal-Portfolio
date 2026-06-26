@@ -203,11 +203,19 @@ func (m EasterModel) Update(msg tea.Msg) (EasterModel, tea.Cmd) {
 		return m, animTickCmd()
 
 	case tea.KeyMsg:
+
 		switch msg.String() {
 
 		case "r":
 			m = NewEasterModel(m.Width, m.Height)
 			return m, animTickCmd()
+		}
+
+		if m.dead {
+			return m, nil
+		}
+
+		switch msg.String() {
 
 		case "f":
 			m.hunger = clampStat(m.hunger+25, 0, 100)
