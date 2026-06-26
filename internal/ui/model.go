@@ -48,7 +48,7 @@ type Model struct {
 }
 
 func NewModel() Model {
-	return NewModelWithSize(120, 40)
+	return NewModelWithSize(0, 0)
 }
 
 func NewModelWithSize(w, h int) Model {
