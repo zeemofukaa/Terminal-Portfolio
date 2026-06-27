@@ -10,7 +10,6 @@ Built with Go and Bubble Tea, it combines a terminal user interface with interac
 * Terminal-based user interface
 * Keyboard-driven navigation
 * Interactive project showcase
-* Animated typing effects
 * Skills and contact sections
 * Hidden easter egg
 * Lightweight, cross-platform application
